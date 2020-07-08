@@ -1,0 +1,15 @@
+[core]
+  editor = nvim
+  pager = delta --dark --plus-color="#012800" --minus-color="#340001" --theme="1337"
+[user]
+	name = Raza Gill
+	email = raza.gill@outlook.com
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[push]
+	default = simple
+[alias]
+	ll = log --graph --format=\"%C(yellow)%h%C(red)%d%C(reset) - %C(bold green)(%ar)%C(reset) %s %C(blue)<%an>%C(reset)\"

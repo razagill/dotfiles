@@ -1,0 +1,13 @@
+#!/bin/zsh
+source $CNC_HOME/setup/echo_helper.sh
+
+if [[ $(command -v brew) == "" ]]; then
+  echo "!! Homebrew is not installed"    
+  echo "=> Installing Homebrew"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+else
+  echo "Updating Homebrew"
+  brew update
+fi
+
+brew bundle --file=~/.dotfiles/setup/Brewfile --no-lock
