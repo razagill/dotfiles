@@ -1,0 +1,1 @@
+lsof -t -i tcp:$1 | xargs kill

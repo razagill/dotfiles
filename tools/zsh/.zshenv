@@ -10,7 +10,7 @@ export FZF_CTRL_T_OPTS="--preview 'bat --color=always --line-range :500 {}'"
 export FZF_ALT_C_OPTS="--preview 'tree -C {} | head -100'"
 
 fpath=(
-  $HOME/functions
+  $HOME/.dotfiles/tools/zsh/functions
   $fpath 
 )
 

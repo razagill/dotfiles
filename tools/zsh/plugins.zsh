@@ -1,5 +1,5 @@
 # source the zinit initialization file
-source $HOME/.dotfiles/meta/zinit/bin/zinit.zsh
+source $HOME/.dotfiles/meta/zinit/zinit.zsh
 autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
 
@@ -7,4 +7,7 @@ autoload -Uz _zinit
 zinit snippet OMZ::plugins/git/git.plugin.zsh
 zinit light zsh-users/zsh-autosuggestions
 zinit light zdharma/fast-syntax-highlighting
-zinit ice depth=1; zinit light romkatv/powerlevel10k
+zinit load agkozak/zsh-z
+
+zinit ice compile'(pure|async).zsh' pick'async.zsh' src'pure.zsh'
+zinit light sindresorhus/pure
