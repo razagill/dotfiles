@@ -11,3 +11,7 @@
 	path = meta/zinit
   url = https://github.com/zdharma/zinit.git
   branch = master
+[submodule "meta/vim-plug"]
+	path = meta/vim-plug
+  url = https://github.com/junegunn/vim-plug.git
+  branch = master

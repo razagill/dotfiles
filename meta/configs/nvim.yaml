@@ -1,2 +1,3 @@
 - link:
     ~/.config/nvim/init.vim: tools/nvim/init.vim  
+    ~/.local/share/nvim/site/autoload/plug.vim: meta/vim-plug/plug.vim
