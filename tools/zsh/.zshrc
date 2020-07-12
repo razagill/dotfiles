@@ -1,4 +1,7 @@
-zmodload zsh/zprof
+# turn on profiling based on $ZPROF - keep at beginning of file
+if [[ "$ZPROF" = true ]]; then
+  zmodload zsh/zprof
+fi
 autoload -U ${fpath[1]}/*(:t)
 
 source $HOME/.dotfiles/tools/zsh/history.zsh
@@ -19,3 +22,8 @@ else
 fi
 
 . $(brew --prefix asdf)/asdf.sh
+
+# end profiling - keep at end of file
+if [[ "$ZPROF" = true ]]; then
+  zprof
+fi
