@@ -2,6 +2,7 @@ export LC_ALL=en_US.UTF-8
 # make sure we have XDG spec set
 export XDG_HOME_CONFIG=$HOME/.config
 export XDG_DATA_HOME=$HOME/.local/share
+export XDG_CACHE_HOME=$HOME/.cache
 export EDITOR=nvim
 
 export FZF_DEFAULT_OPTS="--height=60% --preview-window=right:60%:wrap"
