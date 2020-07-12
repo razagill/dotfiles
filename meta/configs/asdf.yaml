@@ -6,9 +6,10 @@
       - 1.22.4
   - plugin: ruby
     url: https://github.com/asdf-vm/asdf-ruby.git
-    global: 2.6.5
+    global: 2.6.6
     versions:
       - 2.6.5
+      - 2.6.6
   - plugin: nodejs
     url: https://github.com/asdf-vm/asdf-nodejs.git 
     global: 14.4.0

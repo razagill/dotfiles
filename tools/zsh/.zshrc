@@ -1,8 +1,21 @@
+zmodload zsh/zprof
 autoload -U ${fpath[1]}/*(:t)
 
-#source $HOME/.dotfiles/tools/zsh/.zpath
 source $HOME/.dotfiles/tools/zsh/history.zsh
 source $HOME/.dotfiles/tools/zsh/plugins.zsh
 source $HOME/.dotfiles/tools/zsh/aliases.zsh
-#source $HOME/.dotfiles/tools/zsh/.zprompt
 
+# add homebrew completions
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+fi
+
+# check compinit cachce only once per day
+autoload -Uz compinit
+if [ $(date +'%j') != $(/usr/bin/stat -f '%Sm' -t '%j' ${ZDOTDIR:-$HOME}/.zcompdump) ]; then
+  compinit
+else
+  compinit -C
+fi
+
+. $(brew --prefix asdf)/asdf.sh
