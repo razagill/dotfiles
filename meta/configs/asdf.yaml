@@ -12,9 +12,9 @@
       - 2.6.6
   - plugin: nodejs
     url: https://github.com/asdf-vm/asdf-nodejs.git 
-    global: 14.4.0
+    global: 14.5.0
     versions:
-      - 14.4.0
+      - 14.5.0
       - 12.16.0
       - 10.16.3
   - plugin: erlang
