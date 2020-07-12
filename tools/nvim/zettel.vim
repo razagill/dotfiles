@@ -1,5 +1,5 @@
 " variable to store the location of our notes/zettelkasten
-let g:zettelkasten = "~/Dropbox/notes/"
+let g:zettelkasten = "~/notes/"
 
 " command that creates a new file with 'timestamp_NAME.md'
 command! -nargs=1 NewZettel :execute ":e" zettelkasten . strftime("%Y%m%d%H%M") . "_<args>.md"
