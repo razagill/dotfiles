@@ -1,3 +1,5 @@
+- link:
+    ~/.config/asdf/.asdfrc: tools/asdf/.asdfrc
 - asdf:
   - plugin: yarn
     url: https://github.com/twuni/asdf-yarn.git
