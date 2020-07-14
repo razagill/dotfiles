@@ -2,7 +2,7 @@ export LC_ALL=en_US.UTF-8
 export EDITOR=nvim
 
 # make sure we have XDG spec set
-export XDG_HOME_CONFIG=$HOME/.config
+export XDG_CONFIG_HOME=$HOME/.config
 export XDG_DATA_HOME=$HOME/.local/share
 export XDG_CACHE_HOME=$HOME/.cache
 
@@ -15,10 +15,13 @@ export FZF_CTRL_T_OPTS="--preview 'bat --color=always --line-range :500 {}'"
 export FZF_ALT_C_OPTS="--preview 'tree -C {} | head -100'"
 
 # asdf config options
-export ASDF_CONFIG_FILE=$XDG_HOME_CONFIG/asdf/.asdfrc
+export ASDF_CONFIG_FILE=$XDG_CONFIG_HOME/asdf/.asdfrc
 export ASDF_DATA_DIR=$XDG_DATA_HOME/asdf
 
 export ZSH_AUTOSUGGEST_USE_ASYNC=true
+
+# gnupg
+export GNUPGHOME=${XDG_CONFIG_HOME}/gnupg
 
 fpath=(
   $HOME/.dotfiles/tools/zsh/functions

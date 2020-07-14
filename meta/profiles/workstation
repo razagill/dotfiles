@@ -2,7 +2,7 @@ general
 macos
 brew
 zsh
-asdf
 git
 nvim
 kitty
+asdf

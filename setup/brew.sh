@@ -1,5 +1,4 @@
 #!/bin/zsh
-source $CNC_HOME/setup/echo_helper.sh
 
 if [[ $(command -v brew) == "" ]]; then
   echo "!! Homebrew is not installed"    
@@ -10,4 +9,4 @@ else
   brew update
 fi
 
-brew bundle --file=~/.dotfiles/setup/Brewfile --no-lock
+brew bundle --file=~/.dotfiles/setup/Brewfile --zap -v
