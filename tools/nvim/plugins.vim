@@ -127,3 +127,6 @@ let g:vim_markdown_folding_disabled = 1
 au FileType sml nnoremap <silent> <buffer> <leader>ik :SMLReplStop<CR>
 " use the current file into the REPL (even if using CM)
 au FileType sml nnoremap <silent> <buffer> <leader>iu :SMLReplUse<CR>
+
+" set excplicit pythoon executable path for pynvim
+let g:python3_host_prog = '/usr/local/bin/python3'

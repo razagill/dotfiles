@@ -290,7 +290,8 @@
           }
         }
       },
-      "gpg": null
+      "gpg": null,
+      "python": null
     },
     "cask": {
       "dropbox": {
