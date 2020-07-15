@@ -31,4 +31,5 @@ alias cleanupds="find . -type f -name '*.DS_Store' -ls -exec /bin/rm {} \;"
 
 alias vi="nvim"
 alias cat="bat"
-
+alias dok="docker"
+alias dokc="docker-compose"

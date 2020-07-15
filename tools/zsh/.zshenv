@@ -18,6 +18,10 @@ export FZF_ALT_C_OPTS="--preview 'tree -C {} | head -100'"
 export ASDF_CONFIG_FILE=$XDG_CONFIG_HOME/asdf/.asdfrc
 export ASDF_DATA_DIR=$XDG_DATA_HOME/asdf
 
+# docker config options
+export DOCKER_CONFIG=$XDG_CONFIG_HOME/docker 
+export DOCKER_VOLUMES_DIR=$XDG_DATA_HOME/docker/volumes
+
 export ZSH_AUTOSUGGEST_USE_ASYNC=true
 
 # gnupg
