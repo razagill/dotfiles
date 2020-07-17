@@ -16,6 +16,8 @@ brew "ffmpeg"
 brew "highlight"
 brew "git-delta"
 brew "gpg"
+brew "gh"
+brew "exercism"
 
 cask "dropbox"
 cask "expressvpn"
