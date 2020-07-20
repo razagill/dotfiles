@@ -415,7 +415,7 @@
         }
       },
       "dashlane": {
-        "version": "6.2027.0.36391",
+        "version": "6.2028.0.36961",
         "options": {
           "full_name": "dashlane"
         }
@@ -445,7 +445,7 @@
         }
       },
       "calibre": {
-        "version": "4.20.0",
+        "version": "4.21.0",
         "options": {
           "full_name": "calibre"
         }
@@ -455,21 +455,33 @@
         "options": {
           "full_name": "kap"
         }
+      },
+      "menubar-stats": {
+        "version": "3.4",
+        "options": {
+          "full_name": "menubar-stats"
+        }
       }
     },
     "tap": {
       "homebrew/cask-fonts": {
-        "revision": "f7cf2907741e179abc4fadee587bd5b681caca3b"
+        "revision": "58e0c533a980f44042020989ed0bf899eecede7a"
+      }
+    },
+    "mas": {
+      "MenuBar Stats": {
+        "id": "714196447",
+        "version": "3.4"
       }
     }
   },
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "2.4.7",
+        "HOMEBREW_VERSION": "2.4.8",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "67dd6997f570976bd7a924380868705e6429b937",
-        "CLT": "1103.0.32.62",
+        "Homebrew/homebrew-core": "1dd0311c8dbbf3f1a6d984818fc3928a9081feac",
+        "CLT": "11.5.0.0.1.1588476445",
         "Xcode": "11.5",
         "macOS": "10.15.6"
       }
