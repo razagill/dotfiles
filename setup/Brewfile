@@ -38,6 +38,7 @@ cask "docker"
 cask "calibre"
 cask "kap"
 cask "insomnia"
+cask "appcleaner"
 
 tap "homebrew/cask-fonts"
 cask "font-source-code-pro"

@@ -461,6 +461,12 @@
         "options": {
           "full_name": "menubar-stats"
         }
+      },
+      "appcleaner": {
+        "version": "3.5",
+        "options": {
+          "full_name": "appcleaner"
+        }
       }
     },
     "tap": {
