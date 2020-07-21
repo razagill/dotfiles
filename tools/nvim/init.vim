@@ -8,21 +8,21 @@ Plug 'preservim/nerdtree'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-fugitive'
-Plug 'andymass/vim-matchup'
 "Plug 'plasticboy/vim-markdown'
 "Plug 'voldikss/vim-floaterm'
 
 " editing
+Plug 'andymass/vim-matchup'
 Plug 'airblade/vim-gitgutter'
 Plug 'jiangmiao/auto-pairs'
 Plug 'preservim/nerdcommenter'
+Plug 'peitalin/vim-jsx-typescript'
 "Plug 'justinmk/vim-sneak'
 "Plug 'elixir-editors/vim-elixir'
 "Plug 'sheerun/vim-polyglot'
 "Plug 'jez/vim-better-sml'
 "Plug 'sbdchd/neoformat'
 
-" typescript
 "Plug 'HerringtonDarkholme/yats.vim'
 "Plug 'maxmellon/vim-jsx-pretty'
 
