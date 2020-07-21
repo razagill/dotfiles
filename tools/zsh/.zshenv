@@ -22,6 +22,10 @@ export ASDF_DATA_DIR=$XDG_DATA_HOME/asdf
 export DOCKER_CONFIG=$XDG_CONFIG_HOME/docker 
 export DOCKER_VOLUMES_DIR=$XDG_DATA_HOME/docker/volumes
 
+# bundler config
+export BUNDLE_USER_HOME=$XDG_CONFIG_HOME/bundle
+export BUNDLE_USER_CACHE=$XDG_CACHE_HOME/bundle
+
 export ZSH_AUTOSUGGEST_USE_ASYNC=true
 
 # gnupg
