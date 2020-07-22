@@ -8,7 +8,7 @@ Plug 'preservim/nerdtree'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-fugitive'
-"Plug 'plasticboy/vim-markdown'
+Plug 'plasticboy/vim-markdown'
 "Plug 'voldikss/vim-floaterm'
 
 " editing
