@@ -8,7 +8,7 @@ Plug 'preservim/nerdtree'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-fugitive'
-Plug 'plasticboy/vim-markdown'
+Plug 'SidOfc/mkdx'
 "Plug 'voldikss/vim-floaterm'
 
 " editing
@@ -22,9 +22,9 @@ Plug 'peitalin/vim-jsx-typescript'
 "Plug 'sheerun/vim-polyglot'
 "Plug 'jez/vim-better-sml'
 "Plug 'sbdchd/neoformat'
-
-"Plug 'HerringtonDarkholme/yats.vim'
-"Plug 'maxmellon/vim-jsx-pretty'
+Plug 'leafgarland/typescript-vim'
+Plug 'maxmellon/vim-jsx-pretty'
+Plug 'junegunn/vim-easy-align'
 
 " themes
 Plug 'srcery-colors/srcery-vim'

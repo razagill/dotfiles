@@ -140,3 +140,19 @@ au FileType sml nnoremap <silent> <buffer> <leader>iu :SMLReplUse<CR>
 
 " set excplicit pythoon executable path for pynvim
 let g:python3_host_prog = '/usr/local/bin/python3'
+
+" ======= mkdx
+" ============
+let g:mkdx#settings = { 'highlight': { 'enable': 1 },
+                      \ 'enter': { 'shift': 1 },
+                      \ 'links': { 'external': { 'enable': 1 } },
+                      \ 'toc': { 'text': 'Table of Contents', 'update_on_write': 1 },
+                      \ 'fold': { 'enable': 1 } }
+
+" ======== vim-easy-plugin
+" ========================
+" Start interactive EasyAlign in visual mode (e.g. vipga)
+xmap ga <Plug>(EasyAlign)
+
+" Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)
