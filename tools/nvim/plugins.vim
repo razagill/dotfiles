@@ -156,3 +156,6 @@ xmap ga <Plug>(EasyAlign)
 
 " Start interactive EasyAlign for a motion/text object (e.g. gaip)
 nmap ga <Plug>(EasyAlign)
+
+" vim-pencil change default line wrap mode
+let g:pencil#wrapModeDefault = 'soft' 

@@ -25,6 +25,8 @@ Plug 'peitalin/vim-jsx-typescript'
 Plug 'leafgarland/typescript-vim'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'junegunn/vim-easy-align'
+Plug 'reedes/vim-pencil'
+Plug 'junegunn/goyo.vim'
 
 " themes
 Plug 'srcery-colors/srcery-vim'
