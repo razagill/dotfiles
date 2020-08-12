@@ -103,7 +103,7 @@ let g:NERDCompactSexyComs = 1
 " ======== lightline
 " ==================
 let g:lightline = {
-  \ 'colorscheme': 'srcery',
+  \ 'colorscheme': 'gruvbox',
   \ 'active': {
   \   'right': [ [ 'lineinfo' ],
   \              [ 'fileformat', 'fileencoding', 'filetype', 'gitbranch' ] ]
@@ -125,7 +125,7 @@ endfunction
 
 " ======== srcery
 " ===============
-let g:srcery_transparent_background = 1
+"let g:srcery_transparent_background = 1
 
 " ======== vim-markdown
 " =====================
@@ -159,3 +159,7 @@ nmap ga <Plug>(EasyAlign)
 
 " vim-pencil change default line wrap mode
 let g:pencil#wrapModeDefault = 'soft' 
+
+" ======= ci_dark
+" ===============
+set fillchars+=vert:│

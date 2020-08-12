@@ -30,6 +30,7 @@ Plug 'junegunn/goyo.vim'
 
 " themes
 Plug 'srcery-colors/srcery-vim'
+Plug 'morhetz/gruvbox'
 
 call plug#end()
 
@@ -39,4 +40,4 @@ source ~/.dotfiles/tools/nvim/plugins.vim
 source ~/.dotfiles/tools/nvim/zettel.vim
 
 " use silent so nvim does not choke if it cannot find the coloscheme
-silent! colorscheme srcery
+silent! colorscheme gruvbox
