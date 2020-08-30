@@ -21,6 +21,8 @@ brew "exercism"
 brew "postgresql"
 brew "redis"
 brew "postgis"
+brew "kubectl"
+brew "helm"
 
 cask "dropbox"
 cask "expressvpn"

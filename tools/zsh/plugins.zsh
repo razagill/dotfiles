@@ -9,5 +9,5 @@ zinit light zsh-users/zsh-autosuggestions
 zinit light zdharma/fast-syntax-highlighting
 zinit load agkozak/zsh-z
 
-zinit ice compile'(pure|async).zsh' pick'async.zsh' src'pure.zsh'
+#zinit ice compile'(pure|async).zsh' pick'async.zsh' src'pure.zsh'
 zinit light sindresorhus/pure

@@ -9,6 +9,7 @@ Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'SidOfc/mkdx'
+Plug 'elixir-editors/vim-elixir'
 "Plug 'voldikss/vim-floaterm'
 
 " editing
