@@ -23,6 +23,7 @@ brew "redis"
 brew "postgis"
 brew "kubectl"
 brew "helm"
+brew "imagemagick"
 
 cask "dropbox"
 cask "expressvpn"
