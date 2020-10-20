@@ -18,8 +18,6 @@
     global: 14.5.0
     versions:
       - 14.5.0
-      - 12.16.0
-      - 8.1.4
   - plugin: erlang
     url: https://github.com/asdf-vm/asdf-erlang.git
     global: 23.0.2
