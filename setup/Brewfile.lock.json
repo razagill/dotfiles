@@ -23,22 +23,22 @@
         }
       },
       "git": {
-        "version": "2.29.0",
+        "version": "2.29.1",
         "bottle": {
           "cellar": "/usr/local/Cellar",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/git-2.29.0.catalina.bottle.tar.gz",
-              "sha256": "ec73f2ef4364451a8bffef7af1f4f2fbb53145135ea6b9e595ce181bb7567314"
+              "url": "https://homebrew.bintray.com/bottles/git-2.29.1.catalina.bottle.tar.gz",
+              "sha256": "385f0411bc491f64ee14e76a74ae4d4e09a7f7ec8c2fa2dcd8933090fc1a27e2"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/git-2.29.0.mojave.bottle.tar.gz",
-              "sha256": "a5b8ca103d32cf62f1693e20f70335bd9e331e413e565b72c9ce7da33e5b923f"
+              "url": "https://homebrew.bintray.com/bottles/git-2.29.1.mojave.bottle.tar.gz",
+              "sha256": "85be6b3c6c44b38b3076994a211b821daa0f74ed5fcd9f168ea5d640d0dbee3e"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/git-2.29.0.high_sierra.bottle.tar.gz",
-              "sha256": "d71e19675402b0f88a0bc8f0c6cb13b85a5ebf110adcb671a756a8ae740b51e1"
+              "url": "https://homebrew.bintray.com/bottles/git-2.29.1.high_sierra.bottle.tar.gz",
+              "sha256": "3aa9aa95a05f2ec114fbb5acac525f45c42088122976ef369648c45acb0f138f"
             }
           }
         }
@@ -179,7 +179,24 @@
       },
       "youtube-dl": {
         "version": "2020.09.20",
-        "bottle": false
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/youtube-dl-2020.9.20.catalina.bottle.tar.gz",
+              "sha256": "6553843d76f95feeb9a488b2a14cb8374b313f02bd72b18d75cbbd2270fe11ee"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/youtube-dl-2020.9.20.mojave.bottle.tar.gz",
+              "sha256": "8a6f47c7bf197a9cb40e08d130ce6ac9530d2c77f4ecd92f838e19abe23f2c5a"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/youtube-dl-2020.9.20.high_sierra.bottle.tar.gz",
+              "sha256": "7b797964bed458c4271ad917373155a9be574afc174bfdda14b73a77fb16cbc5"
+            }
+          }
+        }
       },
       "fd": {
         "version": "8.1.1",
@@ -669,7 +686,7 @@
     },
     "tap": {
       "homebrew/cask-fonts": {
-        "revision": "1161b7343587c7cd5df7a4ca136d47dd8cc77369"
+        "revision": "a2af48fde7d0f0f4d8c096e9fd5f4e8eeaa8b881"
       }
     },
     "mas": {
@@ -684,7 +701,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.5.6",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "5c03267153c911cb76df6a4d81af1213f7d26c4e",
+        "Homebrew/homebrew-core": "fc8c7225e165fb0b45ecf060d9aae9a2036d55a0",
         "CLT": "12.0.0.0.1.1599194153",
         "Xcode": "12.0",
         "macOS": "10.15.7"

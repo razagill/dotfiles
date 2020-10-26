@@ -1,0 +1,16 @@
+local remote_xsha=$(
+  curl -sI "$1" | rg x-sha | awk '{print $2}'
+  )
+
+local current_git_sha=$(
+  git rev-parse HEAD
+  )
+
+echo "Remote sha: $remote_xsha"
+echo "Local  sha: $current_git_sha"
+
+if [[ $remote_xsha == current_git_sha ]]; then
+  echo 'x-sha is a match'
+else
+  echo '!! does not match !!'
+fi
