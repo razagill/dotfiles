@@ -8,6 +8,9 @@ source $HOME/.dotfiles/tools/zsh/history.zsh
 source $HOME/.dotfiles/tools/zsh/plugins.zsh
 source $HOME/.dotfiles/tools/zsh/aliases.zsh
 
+# disable globbing
+unsetopt nomatch
+
 # add homebrew completions
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
