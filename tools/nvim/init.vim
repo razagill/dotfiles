@@ -8,9 +8,6 @@ Plug 'preservim/nerdtree'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-fugitive'
-Plug 'SidOfc/mkdx'
-Plug 'elixir-editors/vim-elixir'
-"Plug 'voldikss/vim-floaterm'
 
 " editing
 Plug 'andymass/vim-matchup'
@@ -19,16 +16,10 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'preservim/nerdcommenter'
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'Glench/Vim-Jinja2-Syntax'
-"Plug 'justinmk/vim-sneak'
-"Plug 'elixir-editors/vim-elixir'
-"Plug 'sheerun/vim-polyglot'
-"Plug 'jez/vim-better-sml'
-"Plug 'sbdchd/neoformat'
+Plug 'justinmk/vim-sneak'
 Plug 'leafgarland/typescript-vim'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'junegunn/vim-easy-align'
-Plug 'reedes/vim-pencil'
-Plug 'junegunn/goyo.vim'
 
 " themes
 Plug 'srcery-colors/srcery-vim'
@@ -42,4 +33,4 @@ source ~/.dotfiles/tools/nvim/plugins.vim
 source ~/.dotfiles/tools/nvim/zettel.vim
 
 " use silent so nvim does not choke if it cannot find the coloscheme
-silent! colorscheme gruvbox
+silent! colorscheme srcery

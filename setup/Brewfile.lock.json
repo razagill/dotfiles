@@ -210,22 +210,22 @@
         }
       },
       "youtube-dl": {
-        "version": "2020.11.17",
+        "version": "2020.11.18",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/usr/local",
           "files": {
             "big_sur": {
-              "url": "https://homebrew.bintray.com/bottles/youtube-dl-2020.11.17.big_sur.bottle.tar.gz",
-              "sha256": "68bea91f5a45510551eab56885138cf9f84a21e4a7ca62119fab5b3923c2baae"
+              "url": "https://homebrew.bintray.com/bottles/youtube-dl-2020.11.18.big_sur.bottle.tar.gz",
+              "sha256": "0112bf9eb5f3c344d34bb992c81d0480b13289d6081130f325f5944aabba2af2"
             },
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/youtube-dl-2020.11.17.catalina.bottle.tar.gz",
-              "sha256": "b92dd1921c1b0524621eec246263e45fed6394e4e12d7f36f7b7ce1b97dfd061"
+              "url": "https://homebrew.bintray.com/bottles/youtube-dl-2020.11.18.catalina.bottle.tar.gz",
+              "sha256": "352c4170a73c0de9a752b0c59a021c4430b4402173c128b0cc88688149a48fa9"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/youtube-dl-2020.11.17.mojave.bottle.tar.gz",
-              "sha256": "6722f9c1a59e8325e3e2b39d08fdf30faeddee7722f5d50705acf2c3576482dc"
+              "url": "https://homebrew.bintray.com/bottles/youtube-dl-2020.11.18.mojave.bottle.tar.gz",
+              "sha256": "fbe738e4de400a773e4a4a3930b2f863da4b6c6d2cc640f47c48b6257c5ff0d3"
             }
           }
         }
@@ -261,6 +261,10 @@
           "cellar": ":any_skip_relocation",
           "prefix": "/usr/local",
           "files": {
+            "big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/exa-0.9.0.big_sur.bottle.4.tar.gz",
+              "sha256": "3f7b47cd10cce1ab2e51f59d0b3bea05153b5027e4541091e0eeeb5510f585db"
+            },
             "catalina": {
               "url": "https://homebrew.bintray.com/bottles/exa-0.9.0.catalina.bottle.4.tar.gz",
               "sha256": "b0c1b9366cb7c6753a9e8467b5fe1e4dcbc3e148df59b5d79bcd8b8814c30443"
@@ -425,26 +429,22 @@
         }
       },
       "postgresql": {
-        "version": "13.0",
+        "version": "13.1",
         "bottle": {
           "cellar": "/usr/local/Cellar",
           "prefix": "/usr/local",
           "files": {
             "big_sur": {
-              "url": "https://homebrew.bintray.com/bottles/postgresql-13.0.big_sur.bottle.tar.gz",
-              "sha256": "d8d0d489637d4ef94217efa717e83f9d46e26b2da14aebbd0e3138fd106ded31"
+              "url": "https://homebrew.bintray.com/bottles/postgresql-13.1.big_sur.bottle.tar.gz",
+              "sha256": "e4d523c7171f265b340df22a88ff78e6fba4aed46afcf3f4e5bd4ac4b94e8a16"
             },
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/postgresql-13.0.catalina.bottle.tar.gz",
-              "sha256": "0c8e80038485e0e398210b87b309da03e409dab0b0f78d2b7a3be9f51a3d30c0"
+              "url": "https://homebrew.bintray.com/bottles/postgresql-13.1.catalina.bottle.tar.gz",
+              "sha256": "13939e578f0a48c78966c2527dc48391b19650b51f7489767b5237e3bab16793"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/postgresql-13.0.mojave.bottle.tar.gz",
-              "sha256": "74499938a2f7bde3c33fb158161566eaf61a70975e69d1c59b491deff94826dd"
-            },
-            "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/postgresql-13.0.high_sierra.bottle.tar.gz",
-              "sha256": "5175c72b20e73566ef1dadc07286a68b70ae4f31eacc484ad11c4f90f39fd840"
+              "url": "https://homebrew.bintray.com/bottles/postgresql-13.1.mojave.bottle.tar.gz",
+              "sha256": "1826c98f6d117bd040fbb307c1c95dfa2dee6ff8647ec8010e1b79386aa59eb0"
             }
           }
         }
@@ -522,26 +522,22 @@
         }
       },
       "imagemagick": {
-        "version": "7.0.10-38",
+        "version": "7.0.10-39",
         "bottle": {
           "cellar": "/usr/local/Cellar",
           "prefix": "/usr/local",
           "files": {
             "big_sur": {
-              "url": "https://homebrew.bintray.com/bottles/imagemagick-7.0.10-38.big_sur.bottle.tar.gz",
-              "sha256": "75732024285ce977d3b855c58e0e6b1b0f7e49996bbd915996330eb0999a59f3"
+              "url": "https://homebrew.bintray.com/bottles/imagemagick-7.0.10-39.big_sur.bottle.tar.gz",
+              "sha256": "f71172e0ff80a07407427ccb78013e21a0e3d782241d7e9fdc9f9b806557284e"
             },
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/imagemagick-7.0.10-38.catalina.bottle.tar.gz",
-              "sha256": "1f3ad87fdae564aa703eaf0edde3051dc8c1a5071618bc468b094b3a0ab6e993"
+              "url": "https://homebrew.bintray.com/bottles/imagemagick-7.0.10-39.catalina.bottle.tar.gz",
+              "sha256": "466049da081d1ddf706fac272c9f3cdaff52ba085f29f3d51b2b04a98634d43b"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/imagemagick-7.0.10-38.mojave.bottle.tar.gz",
-              "sha256": "b400756e0bdba9b67b6055a28a3dc50fdf0ce72f6ceb40c7f9ddd148282a1728"
-            },
-            "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/imagemagick-7.0.10-38.high_sierra.bottle.tar.gz",
-              "sha256": "60f05f8b47ec907458cc0b0103d79d0f8cebc4207f4b5f0dab8137b2a20176c9"
+              "url": "https://homebrew.bintray.com/bottles/imagemagick-7.0.10-39.mojave.bottle.tar.gz",
+              "sha256": "77fd4b720dc4cdebf0ad840c5130f3ea11368f24e4aada9326a42293b022aaf9"
             }
           }
         }
@@ -795,7 +791,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "2.5.11",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "b08c06e7de7d75b410d96b14d638dc513c6e9721",
+        "Homebrew/homebrew-core": "187755c815cc2e89cb41fa6ca2d80fa9a973dd6e",
         "CLT": "12.0.32.21",
         "Xcode": "12.0",
         "macOS": "11.0.1"
