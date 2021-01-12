@@ -796,7 +796,7 @@
         }
       },
       "obsidian": {
-        "version": "0.10.6",
+        "version": "0.10.7",
         "options": {
           "full_name": "obsidian"
         }
@@ -825,9 +825,9 @@
         "macOS": "10.15.7"
       },
       "big_sur": {
-        "HOMEBREW_VERSION": "2.7.2",
+        "HOMEBREW_VERSION": "2.7.3",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "57c709c6d0d2b37d47bfba9570637e666013702a",
+        "Homebrew/homebrew-core": "1690db2ae422444bceea87a853264b189575cf2d",
         "CLT": "12.0.32.21",
         "Xcode": "12.0",
         "macOS": "11.0.1"
