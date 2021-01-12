@@ -47,6 +47,7 @@ cask "insomnia"
 cask "appcleaner"
 cask "telegram"
 cask "obsidian"
+cask "slack"
 
 tap "homebrew/cask-fonts"
 cask "font-source-code-pro"
