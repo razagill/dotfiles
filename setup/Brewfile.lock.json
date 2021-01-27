@@ -546,26 +546,26 @@
         }
       },
       "imagemagick": {
-        "version": "7.0.10-59",
+        "version": "7.0.10-60",
         "bottle": {
           "cellar": "/usr/local/Cellar",
           "prefix": "/usr/local",
           "files": {
             "big_sur": {
-              "url": "https://homebrew.bintray.com/bottles/imagemagick-7.0.10-59.big_sur.bottle.tar.gz",
-              "sha256": "60e893c4585b2b05c58a585b75e34c11b3471e677028540cb44dcff29bee52e1"
+              "url": "https://homebrew.bintray.com/bottles/imagemagick-7.0.10-60.big_sur.bottle.tar.gz",
+              "sha256": "380d5644f2a2787421f7b56d210ea2609118fc452ebec14176172facaf5b9446"
             },
             "arm64_big_sur": {
-              "url": "https://homebrew.bintray.com/bottles/imagemagick-7.0.10-59.arm64_big_sur.bottle.tar.gz",
-              "sha256": "3dde45bea71a3ea840d10026d93bad1f9d65d6c12ffd7330b9eeefc09e22ba0b"
+              "url": "https://homebrew.bintray.com/bottles/imagemagick-7.0.10-60.arm64_big_sur.bottle.tar.gz",
+              "sha256": "c61f3ae4feeaa3bbb45e68712e3ec23eebf7c3342a8b6c807ec2488ce41dc119"
             },
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/imagemagick-7.0.10-59.catalina.bottle.tar.gz",
-              "sha256": "53977ba9661236286d439990c70372afe63865dd2cb77611713e9aa5b0cbeb7b"
+              "url": "https://homebrew.bintray.com/bottles/imagemagick-7.0.10-60.catalina.bottle.tar.gz",
+              "sha256": "ca66b09c35e3dd8bb5e9ee97910efaa2c2735a63f674f4807bc9b1caec0ee86d"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/imagemagick-7.0.10-59.mojave.bottle.tar.gz",
-              "sha256": "7b5d95a2f0d2717431518dd6eed1b8dc8e13373cf308af0d51cee0c3303f65a4"
+              "url": "https://homebrew.bintray.com/bottles/imagemagick-7.0.10-60.mojave.bottle.tar.gz",
+              "sha256": "42dbc48953a3cb0ad3eb785266c2eb65aab733f97d9b02e12c775704d181da1c"
             }
           }
         }
@@ -810,7 +810,7 @@
     },
     "tap": {
       "homebrew/cask-fonts": {
-        "revision": "590389eca919f622ee371f50b3eb08f3b88809bc"
+        "revision": "7cf22a6e9ad630ad0ddc11800ec931866c865471"
       }
     },
     "mas": {
@@ -833,7 +833,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "2.7.5",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "300a7e0dff54e010c553ff539d883629c0c82e6c",
+        "Homebrew/homebrew-core": "60e0e5bc91930feb2fdb7f44f4c414349e136537",
         "CLT": "12.0.32.21",
         "Xcode": "12.0",
         "macOS": "11.0.1"
