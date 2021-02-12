@@ -164,3 +164,8 @@ let g:pencil#wrapModeDefault = 'soft'
 " ======= ci_dark
 " ===============
 set fillchars+=vert:│
+
+
+" ======= vim-test
+" ===============
+"let test#strategy = "floaterm"
