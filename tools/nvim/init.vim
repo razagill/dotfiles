@@ -25,6 +25,9 @@ Plug 'junegunn/vim-easy-align'
 " themes
 Plug 'srcery-colors/srcery-vim'
 Plug 'morhetz/gruvbox'
+Plug 'bluz71/vim-moonfly-colors'
+Plug 'NLKNguyen/papercolor-theme'
+Plug 'arcticicestudio/nord-vim'
 
 call plug#end()
 
@@ -34,4 +37,5 @@ source ~/.dotfiles/tools/nvim/plugins.vim
 source ~/.dotfiles/tools/nvim/zettel.vim
 
 " use silent so nvim does not choke if it cannot find the coloscheme
-silent! colorscheme srcery
+"set background=light
+silent! colorscheme nord

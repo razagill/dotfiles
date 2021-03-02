@@ -104,7 +104,7 @@ let g:NERDCompactSexyComs = 1
 " ======== lightline
 " ==================
 let g:lightline = {
-  \ 'colorscheme': 'srcery',
+  \ 'colorscheme': 'nord',
   \ 'active': {
   \   'right': [ [ 'lineinfo' ],
   \              [ 'fileformat', 'fileencoding', 'filetype', 'gitbranch' ] ]
@@ -124,9 +124,11 @@ function! LightlineFilename()
   return expand('%')
 endfunction
 
-" ======== srcery
+" ======== theme-options
 " ===============
 "let g:srcery_transparent_background = 1
+let g:moonflyCursorColor = 1
+let g:moonflyUnderlineMatchParen = 1
 
 " ======== vim-markdown
 " =====================
