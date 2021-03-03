@@ -104,7 +104,7 @@ let g:NERDCompactSexyComs = 1
 " ======== lightline
 " ==================
 let g:lightline = {
-  \ 'colorscheme': 'nord',
+  \ 'colorscheme': 'srcery',
   \ 'active': {
   \   'right': [ [ 'lineinfo' ],
   \              [ 'fileformat', 'fileencoding', 'filetype', 'gitbranch' ] ]

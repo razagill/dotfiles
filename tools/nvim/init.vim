@@ -38,4 +38,4 @@ source ~/.dotfiles/tools/nvim/zettel.vim
 
 " use silent so nvim does not choke if it cannot find the coloscheme
 "set background=light
-silent! colorscheme nord
+silent! colorscheme srcery
