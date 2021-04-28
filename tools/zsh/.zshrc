@@ -11,6 +11,9 @@ source $HOME/.dotfiles/tools/zsh/aliases.zsh
 # disable globbing
 unsetopt nomatch
 
+# bind keys
+bindkey '`' autosuggest-accept
+
 # add homebrew completions
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH

@@ -43,3 +43,8 @@
     global: 1.45.2 
     versions:
       - 1.45.2
+  - plugin: flutter
+    url: https://github.com/oae/asdf-flutter.git 
+    global: 2.0.4-stable
+    versions:
+      - 2.0.4-stable

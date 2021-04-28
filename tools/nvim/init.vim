@@ -9,6 +9,7 @@ Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-test/vim-test'
+Plug 'tpope/vim-surround'
 
 " editing
 Plug 'andymass/vim-matchup'

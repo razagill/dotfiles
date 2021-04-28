@@ -50,7 +50,6 @@ cask "obsidian"
 cask "slack"
 
 tap "homebrew/cask-fonts"
-cask "font-source-code-pro"
 cask "font-victor-mono"
 
 mas "MenuBar Stats", id: 714196447

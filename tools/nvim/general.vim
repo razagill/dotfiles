@@ -74,7 +74,7 @@ nnoremap <leader>th :tabprev<CR>
 nnoremap <leader>tl :tabnext<CR>
 
 " removes search highlight
-nnoremap <CR> :noh
+"nnoremap <CR> :noh
 
 " indent with tab
 nnoremap <Tab> >>
@@ -86,3 +86,6 @@ vnoremap <S-Tab> <
 augroup auto_spellcheck
   autocmd BufNewFile,BufRead *.md setlocal spell
 augroup END
+
+" add jbuilder syntax highlighting
+au BufNewFile,BufRead *.json.jbuilder set ft=ruby
