@@ -3,9 +3,9 @@
 - asdf:
   - plugin: yarn
     url: https://github.com/twuni/asdf-yarn.git
-    global: 1.22.4
+    global: 1.22.10
     versions:
-      - 1.22.4
+      - 1.22.10
   - plugin: ruby
     url: https://github.com/asdf-vm/asdf-ruby.git
     global: 2.6.5
@@ -15,8 +15,9 @@
       - 2.7.1
   - plugin: nodejs
     url: https://github.com/asdf-vm/asdf-nodejs.git 
-    global: 14.5.0
+    global: 16.1.0
     versions:
+      - 16.1.0
       - 14.5.0
   - plugin: erlang
     url: https://github.com/asdf-vm/asdf-erlang.git

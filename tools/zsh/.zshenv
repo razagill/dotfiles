@@ -18,6 +18,7 @@ export FZF_ALT_C_OPTS="--preview 'tree -C {} | head -100'"
 export ASDF_CONFIG_FILE=$XDG_CONFIG_HOME/asdf/.asdfrc
 export ASDF_DATA_DIR=$XDG_DATA_HOME/asdf
 export FLUTTER_ROOT=$XDG_DATA_HOME/asdf/installs/flutter/2.0.4-stable
+export NODEJS_CHECK_SIGNATURES=no
 
 # docker config options
 export DOCKER_CONFIG=$XDG_CONFIG_HOME/docker 
@@ -27,10 +28,14 @@ export DOCKER_VOLUMES_DIR=$XDG_DATA_HOME/docker/volumes
 export BUNDLE_USER_HOME=$XDG_CONFIG_HOME/bundle
 export BUNDLE_USER_CACHE=$XDG_CACHE_HOME/bundle
 
+# zsh
 export ZSH_AUTOSUGGEST_USE_ASYNC=true
 
 # gnupg
 export GNUPGHOME=${XDG_CONFIG_HOME}/gnupg
+
+# bat
+export BAT_THEME="base16"
 
 fpath=(
   $HOME/.dotfiles/tools/zsh/functions
