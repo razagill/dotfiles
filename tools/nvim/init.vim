@@ -15,11 +15,12 @@ Plug 'akinsho/flutter-tools.nvim'
 Plug 'kyazdani42/nvim-web-devicons' " for file icons
 Plug 'kyazdani42/nvim-tree.lua'
 Plug 'hoob3rt/lualine.nvim'
+Plug 'akinsho/nvim-bufferline.lua'
 
 " editing
 Plug 'andymass/vim-matchup'
 Plug 'airblade/vim-gitgutter'
-Plug 'jiangmiao/auto-pairs'
+Plug 'windwp/nvim-autopairs'
 Plug 'preservim/nerdcommenter'
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'Glench/Vim-Jinja2-Syntax'
@@ -41,10 +42,13 @@ call plug#end()
 source ~/.dotfiles/tools/nvim/general.vim
 source ~/.dotfiles/tools/nvim/plugins.vim
 source ~/.dotfiles/tools/nvim/zettel.vim
-luafile ~/.dotfiles/tools/nvim/compe-config.lua
-luafile ~/.dotfiles/tools/nvim/lspinstall-config.lua
-luafile ~/.dotfiles/tools/nvim/flutter-tools.lua
-luafile ~/.dotfiles/tools/nvim/config-lualine.lua
+
+luafile ~/.dotfiles/tools/nvim/lua/rg-lspinstall/init.lua
+luafile ~/.dotfiles/tools/nvim/lua/rg-compe/init.lua
+luafile ~/.dotfiles/tools/nvim/lua/rg-flutter-tools/init.lua
+luafile ~/.dotfiles/tools/nvim/lua/rg-lualine/init.lua
+luafile ~/.dotfiles/tools/nvim/lua/rg-bufferline/init.lua
+luafile ~/.dotfiles/tools/nvim/lua/rg-autopairs/init.lua
 
 "luafile ~/.dotfiles/tools/nvim/ruby-ls.lua
 
