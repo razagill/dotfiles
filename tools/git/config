@@ -1,6 +1,8 @@
 [core]
   editor = nvim
   pager = delta --dark --plus-color="#012800" --minus-color="#340001" --theme="1337"
+[init]
+  defaultBranch = main
 [user]
 	name = Raza Gill
 	email = raza.gill@outlook.com
